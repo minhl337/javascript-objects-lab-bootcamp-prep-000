@@ -37,3 +37,8 @@ function deleteFromObjectByKey(x,y){
   delete z[y];
   return z
 }
+
+function destructivelyDeleteFromObjectByKey(x,y){
+  delete x[y];
+  return x;
+}
