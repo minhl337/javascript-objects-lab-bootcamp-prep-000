@@ -34,6 +34,6 @@ function destructivelyUpdateObjectWithKeyAndValue(x,y,z){
 
 function deleteFromObjectByKey(x,y){
   var z=Object.assign({},x,);
-  delete z.y;
+  delete z[y];
   return z
 }
