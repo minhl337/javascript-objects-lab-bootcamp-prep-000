@@ -27,4 +27,7 @@ function updateObjectWithKeyAndValue(x,y,z){
   return Object.assign({},x,{[y]:z})
 }
 
-function
+function destructivelyUpdateObjectWithKeyAndValue(x,y,z){
+  return x.y=z;
+}
+}
