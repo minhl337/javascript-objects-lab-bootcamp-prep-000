@@ -36,5 +36,4 @@ function deleteFromObjectByKey(x,y){
   var z=Object.assign({},x,);
   delete z.y;
   return z
-  
 }
