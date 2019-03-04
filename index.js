@@ -24,6 +24,5 @@
 var recipes={};
 
 function updateObjectWithKeyAndValue(x,y,z){
-  var k=x.y=z;
-  return k;
+  return Object.assign({},x,{[y]:z})
 }
